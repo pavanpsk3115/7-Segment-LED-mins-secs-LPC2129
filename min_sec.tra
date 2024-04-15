@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'min_sec.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"min_sec.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "min_sec.o" --strict --scatter "min_sec.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\min_sec.map" -o "min_sec.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'min_sec.axf'
+### ADS-LD Command File: 'min_sec.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'min_sec.lnp', Handle=0x00000498
+### Writing '.lnp' file
+### ADS-LD Command file 'min_sec.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "min_sec.o" --strict --scatter "min_sec.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\min_sec.map" -o "min_sec.axf"
